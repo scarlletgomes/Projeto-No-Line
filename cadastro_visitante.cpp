@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<locale.h>
-#include<string.h>
 int main(){
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	char nomeTitular[100], cpfTitular[20], dataValidade[10], numeroCartao[50], ddd[2], numeroTelefone[20], cpf[20], nome[100], dataNasc[10], email[100], senha[20];
@@ -15,16 +14,16 @@ int main(){
 	scanf("%s", &email);
 	printf("Cria uma senha: ");
 	scanf("%s", &senha);
-	printf("Digite o DDD do número do seu telefone: ");
+	printf("Digite o DDD do nÃºmero do seu telefone: ");
 	scanf("%s", &ddd);
-	printf("Infome o seu número de telefone: ");
+	printf("Infome o seu nÃºmero de telefone: ");
 	scanf("%s", &numeroTelefone);
 		fflush(stdin);
-	printf("Digite o número do cartão: ");
+	printf("Digite o nÃºmero do cartÃ£o: ");
 	fgets(numeroCartao, 50, stdin); 
-	printf("Digite o nome do titular do cartão: ");
+	printf("Digite o nome do titular do cartÃ£o: ");
 	fgets(nomeTitular, 100, stdin);
-	printf("Digite a data de validade do cartão: ");
+	printf("Digite a data de validade do cartÃ£o: ");
 	scanf("%s", &dataValidade);
 
 	printf("================================");
@@ -37,17 +36,17 @@ int main(){
 	printf("\nDados cadastrados com sucesso!\n\n");
 	
 	printf("\n================================");
-	printf("\nNúmero: %s %s", ddd, numeroTelefone);
+	printf("\nNÃºmero: %s %s", ddd, numeroTelefone);
 	printf("\n================================\n");
-	printf("\nNúmero de Telefone cadastrado com sucesso!\n\n");
+	printf("\nNÃºmero de Telefone cadastrado com sucesso!\n\n");
 
 	printf("\n================================");
-	printf("\nNúmero do Cartão: %s", numeroCartao);
+	printf("\nNÃºmero do CartÃ£o: %s", numeroCartao);
 	printf("Data de Validade: %s", dataValidade);
 	printf("\nNome do Titular: %s", nomeTitular);
 	printf("================================\n");
-	printf("\nCartão cadastrado com sucesso!\n\n");
+	printf("\nCartÃ£o cadastrado com sucesso!\n\n");
 	
 	printf("\nConta criada com sucesso...");
-	printf("\nLogue na sua conta e começe a usar nossos serviços!");	
+	printf("\nLogue na sua conta e comeÃ§e a usar nossos serviÃ§os!");	
 }
