@@ -18,6 +18,7 @@ Projeto em desenvolvimento para a disciplina de Projetos Interdisciplinar I do C
 - Realizar cadastro de clientes.
 - Armazenar dados de pagamento para compras futuras.
 - Validação dos tickets via QRCode.
+- Possibilidade do estabelecimento realizar estorno e adiamento de validade dos tickets.
 
 # Tecnologias Utilizadas 
 
