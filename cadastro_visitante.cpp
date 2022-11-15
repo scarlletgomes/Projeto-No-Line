@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<locale.h>
-#include<locale.h>
 int main(){
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	char nomeTitular[100], cpfTitular[20], dataValidade[10], numeroCartao[50], ddd[2], numeroTelefone[20], cpf[20], nome[100], dataNasc[10], email[100], senha[20];
